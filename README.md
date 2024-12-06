@@ -1,9 +1,11 @@
 PostgreSQL
+
 PostgreSQL is an free open-source database system that supports both relational (SQL) and non-relational (JSON) queries. PostgreSQL is a back-end database for dynamic websites and web applications.
 
 PostgreSQL is a powerful open-source database system known for its reliability, performance, and advanced features. It supports a wide range of data types, ACID compliance, robust security, extensibility, high availability, full-text search, and more.
 
 PostgreSQL Architecture
+
 PostgreSQL is a relational database management system (RDBMS) with a client-server architecture. It includes the following components:
 
 • Client: The user or application that connects to the PostgreSQL database. It sends queries to the server.
@@ -19,6 +21,7 @@ PostgreSQL is a relational database management system (RDBMS) with a client-serv
 • Database files: Where the data is stored, including the transaction log, data files, etc.
 
 PostgreSQL Data Types
+
 PostgreSQL supports several data types, including:
 
 Integer Types:
@@ -43,6 +46,7 @@ Numeric Types:
 • numeric: Stores arbitrary precision numbers (e.g., 123.45).
 
 PostgreSQL Operators
+
 PostgreSQL supports various operators:
 
 • Arithmetic Operators:
@@ -66,6 +70,7 @@ PostgreSQL supports various operators:
 • @> (contains), <@ (contained by) (e.g., SELECT * FROM ranges WHERE range @> 5;).
 
 DDL (Data Definition Language) Operations
+
 DDL operations are used to define and manage database schema. Examples include:
 
 • CREATE TABLE: Defines a new table.
